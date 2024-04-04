@@ -84,9 +84,7 @@ nav .download-app:hover {
         display: none; /* Hide the nav on small screens */
     }
 
-    /* Add a hamburger menu or other mobile menu trigger */
-} */
-
+}
 
 .no-stripe {
     border-top: none;
