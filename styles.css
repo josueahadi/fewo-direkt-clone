@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
 
 * {
     padding: 0;
@@ -8,6 +8,23 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+.landing {
+    background: none;
+    margin-bottom: 0;
+    max-width: 100%;
+    padding-bottom: 0;
+}
+#showcase  {
+    background-position: 50%;
+    margin-bottom: 0;
+    min-height: 36rem;    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)), url(https://forever.travel-assets.com/flex/flexmanager/images/2022/08/02/2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2.png?impolicy=fcrop&w=1920&h=580&q=medium);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    text-align: center;
+    color: #ffffff;
 }
 
 /* header {
@@ -78,7 +95,7 @@ nav .download-app:hover {
 .header-region, .secondary-header-region {
     align-items: center;
     background-color: #fff;
-    border-top: solid #006ed6;
+    /* border-top: solid #006ed6; */
     display: flex;
     flex-direction: column;
     justify-content: center;
