@@ -75,7 +75,7 @@ nav .download-app:hover {
     border-top: none;
 }
 
-/* .header-region, .secondary-header-region {
+.header-region, .secondary-header-region {
     align-items: center;
     background-color: #fff;
     border-top: solid #006ed6;
@@ -83,5 +83,5 @@ nav .download-app:hover {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-} */
+}
 
