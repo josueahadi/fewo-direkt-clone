@@ -1,1 +1,1 @@
-fewo-direkt.de clone
+Clone of [fewo-direkt.de](https://www.fewo-direkt.de/) 
