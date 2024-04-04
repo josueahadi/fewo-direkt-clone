@@ -29,8 +29,8 @@
 <body data-theme-light="light-1">
     <div id="app-blossom-flex-ui">
         <div id="app-layer-manager">
-            <div>
-                <div>
+            <div id="app-layer-base" aria-hidden="false" class="app-layer-base--active">
+                <div class="pageWhiteBackground">
                     <div>
                         <div class="header-region no-stripe">
                             <header
@@ -43,144 +43,10 @@
                                     <nav id="header-toolbar-nav" class="global-nav-header-links__nav"
                                         aria-label="primary"></nav>
                                 </div>
-
-                                <nav id="secondaryNav" class="navigation-bar" aria-label="secondary">
-                                    <div class="uitk-layout-flex uitk-layout-flex-align-items-center">
-                                        <div id="mobile-app-download-button">
-                                            <div><a href="https://t.vrbo.io/3fsamZD0nsb/?~feature=Mobile%20Web&amp;~channel=Referral&amp;~customer_campaign=BRAND&amp;~campaign=FEWO-NAVBAR-DESKTOP-CTADESKTOP&amp;~customer_ad_name=BRAND.VRBO.OWNED.BRANCH.DEFAULT.MAD&amp;~customer_placement=FEWO-NAVBAR-DESKTOP-CTADESKTOP&amp;hav=ff833092-c29a-3f73-41b6-a2196473e94d&amp;%24desktop_url=https%3A%2F%2Fwww.fewo-direkt.de%2Fapp&amp;custom_web_attribute=ff833092-c29a-3f73-41b6-a2196473e94d&amp;%24canonical_url=https%3A%2F%2Fwww.fewo-direkt.de%2F"
-                                                    class="uitk-button uitk-button-small uitk-button-has-text uitk-button-as-link uitk-button-secondary uitk-layout-flex-item"><svg
-                                                        class="uitk-icon uitk-icon-leading"
-                                                        aria-describedby="undefined-description"
-                                                        aria-label="Download the app button" role="img"
-                                                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                                                        xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                        <title id="undefined-title">Download the app button</title>
-                                                        <desc id="undefined-description">Download the app button with
-                                                            download icon</desc>
-                                                        <path
-                                                            d="M20.75 14.48a.75.75 0 0 0-.75.75v3.88c0 .42-.34.75-.75.75H4.75a.75.75 0 0 1-.75-.75v-3.88a.75.75 0 0 0-1.5 0v3.88c0 1.24 1 2.25 2.25 2.25h14.5a2.25 2.25 0 0 0 2.25-2.25v-3.88a.75.75 0 0 0-.75-.75z">
-                                                        </path>
-                                                        <path
-                                                            d="M11.52 16.53a.75.75 0 0 0 .96 0l5.59-4.72a.75.75 0 0 0-.97-1.15l-4.35 3.68V3.11a.75.75 0 1 0-1.5 0v11.23L6.9 10.67a.75.75 0 0 0-.97 1.14l5.59 4.72z">
-                                                        </path>
-                                                    </svg>
-                                                    <div
-                                                        class="uitk-text uitk-type-300 uitk-text-white-space-nowrap uitk-text-default-theme">
-                                                        <font style="vertical-align: inherit;">
-                                                            <font style="vertical-align: inherit;">download App</font>
-                                                        </font>
-                                                    </div>
-                                                </a></div>
-                                        </div>
-                                        <div></div>
-                                        <div class="trip-boards__icon"><a id="trip-boards" href="/tripboard"
-                                                aria-label="Trip planner" data-stid="trip-boards-button" target="_self"
-                                                class="uitk-button uitk-button-medium uitk-button-has-text uitk-button-as-link">
-                                                <div class="uitk-text uitk-type-300 uitk-text-default-theme">
-                                                    <font style="vertical-align: inherit;">
-                                                        <font style="vertical-align: inherit;">Trip planner</font>
-                                                    </font>
-                                                </div>
-                                            </a></div>
-                                        <div class="listYourProperty__icon"><a id="listYourProperty" href="/list"
-                                                aria-label="Register accommodation. Opens in a new window."
-                                                data-stid="listYourProperty-button" target="_blank"
-                                                class="uitk-button uitk-button-medium uitk-button-has-text uitk-button-as-link">
-                                                <div class="uitk-text uitk-type-300 uitk-text-default-theme">
-                                                    <font style="vertical-align: inherit;">
-                                                        <font style="vertical-align: inherit;">Register accommodation
-                                                        </font>
-                                                    </font>
-                                                </div>
-                                            </a></div>
-                                        <div class="support-cs__icon"><a id="support-cs"
-                                                href="https://hilfe.fewo-direkt.de/" aria-label="Help"
-                                                data-stid="support-cs-button" target="_self"
-                                                class="uitk-button uitk-button-medium uitk-button-has-text uitk-button-as-link">
-                                                <div class="uitk-text uitk-type-300 uitk-text-default-theme">
-                                                    <font style="vertical-align: inherit;">
-                                                        <font style="vertical-align: inherit;">Help</font>
-                                                    </font>
-                                                </div>
-                                            </a></div>
-                                        <div class="itinerary__icon"><a id="itinerary"
-                                                href="/login?enable_login=true&amp;redirectTo=/traveler/th/bookings"
-                                                aria-label="My journeys" data-stid="itinerary-button" target="_self"
-                                                class="uitk-button uitk-button-medium uitk-button-has-text uitk-button-as-link">
-                                                <div class="uitk-text uitk-type-300 uitk-text-default-theme">
-                                                    <font style="vertical-align: inherit;">
-                                                        <font style="vertical-align: inherit;">My journeys</font>
-                                                    </font>
-                                                </div>
-                                            </a></div>
-                                        <div class="uitk-menu uitk-menu-mounted"
-                                            id="gc-custom-header-nav-bar-acct-menu"><button tabindex="0"
-                                                aria-expanded="false" type="button"
-                                                class="uitk-button uitk-button-medium uitk-button-has-text uitk-button-tertiary uitk-menu-trigger">
-                                                <font style="vertical-align: inherit;">
-                                                    <font style="vertical-align: inherit;">Register</font>
-                                                </font>
-                                            </button>
-                                            <div class="uitk-menu-container animation-disabled uitk-menu-pos-right uitk-menu-container-autoposition uitk-menu-container-has-intersection-root-el"
-                                                aria-hidden="true" style="width: 375px;">
-                                                <div class="header-guest-heading">
-                                                    <div class="heading-container">
-                                                        <h2 class="uitk-heading uitk-heading-5">
-                                                            <font style="vertical-align: inherit;">
-                                                                <font style="vertical-align: inherit;">With a HomeAway
-                                                                    account, contacting hosts and keeping track of all
-                                                                    your messages is a breeze.</font>
-                                                            </font>
-                                                        </h2>
-                                                        <div class="actions"><a
-                                                                href="/login?enable_login=true&amp;referrer_page_location=homepage&amp;redirectTo=%2F"
-                                                                data-stid="link-header-account-signin"
-                                                                class="uitk-button uitk-button-medium uitk-button-fullWidth uitk-button-has-text uitk-button-as-link uitk-button-primary">
-                                                                <font style="vertical-align: inherit;">
-                                                                    <font style="vertical-align: inherit;">Vacationer
-                                                                        login</font>
-                                                                </font>
-                                                            </a><a
-                                                                href="/p/home?&amp;referrer_page_location=homepage&amp;redirectTo=%2F"
-                                                                data-stid="link-header-account-owner-signin"
-                                                                class="uitk-button uitk-button-medium uitk-button-fullWidth uitk-button-has-text uitk-button-as-link uitk-button-primary">
-                                                                <font style="vertical-align: inherit;">
-                                                                    <font style="vertical-align: inherit;">Landlord
-                                                                        login</font>
-                                                                </font>
-                                                            </a><a
-                                                                href="/signup?enable_registration=true&amp;referrer_page_location=homepage&amp;redirectTo=%2F"
-                                                                data-stid="link-header-account-signup"
-                                                                class="uitk-button uitk-button-medium uitk-button-fullWidth uitk-button-has-text uitk-button-as-link uitk-button-tertiary">
-                                                                <font style="vertical-align: inherit;">
-                                                                    <font style="vertical-align: inherit;">Create a free
-                                                                        account</font>
-                                                                </font>
-                                                            </a></div>
-                                                    </div>
-                                                </div>
-                                                <div class="uitk-list"><a
-                                                        href="https://www.directword.io/survey/domain=www.fewo-direkt.de/locale=de_DE?metadata=%7B%22url%22%3A%22https%3A%2F%2Fwww.fewo-direkt.de%2F%22%2C%22page_name%22%3A%22page.Header%22%2C%22duaid%22%3A%20%22ff833092-c29a-3f73-41b6-a2196473e94d%22%7D"
-                                                        target="_blank" role="link" tabindex="0"
-                                                        class="uitk-link uitk-list-item uitk-link-align-left uitk-link-layout-default uitk-link-medium">
-                                                        <font style="vertical-align: inherit;">
-                                                            <font style="vertical-align: inherit;">Feedback</font>
-                                                        </font><span
-                                                            class="screen-reader-select-hidden is-visually-hidden">
-                                                            <font style="vertical-align: inherit;">
-                                                                <font style="vertical-align: inherit;">Opens in a new
-                                                                    window</font>
-                                                            </font>
-                                                        </span>
-                                                    </a></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </nav>
                             </header>
                         </div>
-                        </div>
-                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
